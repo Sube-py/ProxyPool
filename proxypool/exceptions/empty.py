@@ -1,7 +1,7 @@
 class PoolEmptyException(Exception):
-    def __str__(self):
+    def __str__(self) -> str:
         """
-        proxypool is used out
-        :return:
+            Proxypool is used out
+            :return: str
         """
-        return repr('no proxy in proxypool')
+        return repr('no proxy in pool')
